@@ -34,6 +34,7 @@ const erc20list = {
   '0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72': 10, // ens
   '0x1B9BAF2A3EdeA91eE431f02d449a1044d5726669': 10, // cliff
   '0xf79F9020560963422eCC9C0c04D3a21190BBf045': 10, // babysaitama
+  '0x6ADb2E268de2aA1aBF6578E4a8119b960E02928F': 10, // shibdoge
 }
 
 const installInNewWindow = true; // install wallet if not installed
